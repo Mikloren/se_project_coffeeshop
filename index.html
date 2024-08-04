@@ -75,29 +75,28 @@
                 </section>
                 <section id="reservation" class="reservation">
                     <h2 class="reservation__title">Book a table</h2>
-                    <form action="" class="reservation__form form">
+                    <form class="reservation__form form">
                         <feildset class="form__feildset">
                             <label for="text" class="form__label">
                                 Name *
-                                <input type="text" class="form__input" placeholder="Name Surname" required>
-                                 
+                                <input type="text" class="form__input" placeholder="Name Surname" required id="text">     
                             </label>
                             <label for="number" class="form__label">
                                 Number of guests *
-                                <input type="number" class="form__input" placeholder="1-8" required>
+                                <input type="number" class="form__input" placeholder="1-8" required id="number">
                             </label>
                             <label for="datetime-local" class="form__label">
                                 Date & time *
-                                <input type="datetime-local" class="form__input" required>
+                                <input type="datetime-local" class="form__input" required id="datetime-local">
                             </label>
                             <label for="email" class="form__label">
                                 Your email *
-                                <input type="email" class="form__input" placeholder="email@email.com" required>
+                                <input type="email" class="form__input" placeholder="email@email.com" required id="email">
                             </label>  
                         </feildset>
                         <button class="form__button">Book a table</button>
                         <label for="checkbox" class="form__label form__label_type_checkbox">
-                            <input type="checkbox" class="form__checkbox" required>
+                            <input type="checkbox" class="form__checkbox" required id="checkbox">
                             I agree with terms of use
                         </label>
                     </form>
