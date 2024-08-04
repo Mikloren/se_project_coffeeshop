@@ -109,6 +109,7 @@
     background-image: url(/images/background_recipes.svg);
     background-position: center;
     background-color:#0a2750;
+    background-size: cover;
 }
 
 .recipes__title {
@@ -156,4 +157,106 @@
 .recipes__iframe {
     width: 480px;
     height: 273px;
+}
+
+.reservation {
+    padding: 100px 0 120px;
+    background-color:  #D9E7FF;
+    background-image: url(/images/background_reservation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reservation__title {
+    margin: 0 0 80px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.reservation__form {
+    margin: 0 auto;
+}
+
+.form {
+    max-width: 385px;
+}
+
+.form__fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.form__label{
+    margin-bottom: 32px;
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+     font-size: 16px;
+    line-height: 20px;
+}
+
+.form__label_type_checkbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 8px;
+    height: 60px;
+    text-indent: 4%;
+    border-radius: 4px;
+}
+
+.input::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+}
+
+.form__button {
+   width: 100%; 
+   padding: 0;
+   margin-bottom: 32px;
+   height: 60px;
+   font-family: Inter;
+   font-style: normal;  
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   border-radius: 4px;
+   color: #fff;
+   background:#2f80ed;
+   transition: opacity 2s;
+}
+
+.form__button:hover {
+    opacity: 70%;
+}
+
+.form__checkbox {
+    margin-right: 12px;
+    height: 20px;
+    width: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 2px;
 }
