@@ -1,6 +1,6 @@
 .recipes {
     padding: 100px 80px 215px;
-    background-image: url(/images/background_recipes.svg);
+    background-image: url(../images/background_recipes.svg);
     background-position: center;
     background-color:#0a2750;
     background-size: cover;
@@ -30,7 +30,7 @@
 
 .recipes__videos {
     display: flex;
-    gap: 100px;
+    gap: 40px;
     justify-content: center;
     column-gap: 40px;
     
@@ -51,4 +51,8 @@
 .recipes__iframe {
     width: 480px;
     height: 273px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
 }
