@@ -1,6 +1,5 @@
 .card {
     width: 540px;
-    gap: 100px 100px 0;
 }
 
 .card__title {
@@ -16,6 +15,7 @@
 
 .card__list {
     margin: 0;
+    padding: 0;
     font-family: "Noto Serif"; 
     font-style: normal; 
     font-weight: normal; 

@@ -1,14 +1,15 @@
 .footer {
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
     color: #fff;
-    padding: 80px;
+    padding: 60px 80px 60px;
+    margin: 0;
 }
   
 .footer__content {
     margin: 60px 0 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
   
 .footer__logo {
@@ -19,7 +20,6 @@
 .footer__social {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
   
 .footer__social-heading {
@@ -42,7 +42,7 @@
 }
 
 .footer__list-item:last-child {
-    margin: 0 0 10px;
+    margin: 0;
 }
   
 .footer__social-link {
@@ -59,12 +59,12 @@
 }
   
 .footer__social-link:hover {
-    color: #1C1C1C;
+    color: #2F80ED;
 }
   
 .footer__social-icon {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     margin-right: 10px;
 }
   
