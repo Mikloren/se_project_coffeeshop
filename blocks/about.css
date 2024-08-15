@@ -42,7 +42,7 @@
     max-width: 251px;
     position: relative;
     margin: 100px 80px 0;
-    font-family: "Inter, Arial, sans-serif";
+    font-family: "Inter, Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
@@ -51,7 +51,7 @@
   
 .about__content {
     margin: 119px 80px 0;
-    font-family: "Noto Serif, serif";
+    font-family: "Noto Serif", serif;
     font-size: 20px;
     line-height: 30px;
     max-width: 660px; 
